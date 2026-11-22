@@ -1,0 +1,5 @@
+claim,alias,agency,role,nomination_day,protected_days,share,dispute_day
+C1,A01,H1,R1,3,30,0.60,-
+C2,A02,H2,R1,5,40,0.40,12
+C3,A04,H2,R2,8,30,1.00,-
+C4,A05,H1,R1,5,30,1.00,-

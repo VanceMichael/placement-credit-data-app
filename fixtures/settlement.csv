@@ -1,0 +1,5 @@
+payment,alias,stage,agency,amount,period,status
+P1,A01,start,H1,1200,1,paid
+P2,A02,start,H2,800,2,requested
+P3,A01,retain,H1,1200,2,requested
+P4,A04,start,H2,2000,1,paid

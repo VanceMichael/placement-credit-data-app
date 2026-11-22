@@ -1,0 +1,4 @@
+link,left_alias,right_alias,status,record_day
+I1,A01,A02,pending,10
+I2,A01,A02,confirmed,48
+I3,A03,A04,pending,14

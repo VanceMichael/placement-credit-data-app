@@ -1,0 +1,105 @@
+{
+  "tables": {
+    "contacts": [
+      "touch",
+      "alias",
+      "event",
+      "day",
+      "follow_consent",
+      "org"
+    ],
+    "identities": [
+      "link",
+      "left_alias",
+      "right_alias",
+      "status",
+      "record_day"
+    ],
+    "employment": [
+      "employment",
+      "alias",
+      "entity",
+      "role",
+      "begin",
+      "end",
+      "verified_day",
+      "supersedes"
+    ],
+    "claims": [
+      "claim",
+      "alias",
+      "agency",
+      "role",
+      "nomination_day",
+      "protected_days",
+      "share",
+      "dispute_day"
+    ],
+    "settlement": [
+      "payment",
+      "alias",
+      "stage",
+      "agency",
+      "amount",
+      "period",
+      "status"
+    ],
+    "policy": [
+      "policy",
+      "scope",
+      "max_gap",
+      "phase_days",
+      "award",
+      "publish_minimum"
+    ],
+    "tracking": [
+      "contact",
+      "review_day",
+      "status"
+    ],
+    "disputes": [
+      "claim",
+      "opened_day",
+      "decision_day",
+      "outcome"
+    ]
+  },
+  "links": [
+    [
+      "identities",
+      "left_alias",
+      "contacts",
+      "alias"
+    ],
+    [
+      "identities",
+      "right_alias",
+      "contacts",
+      "alias"
+    ],
+    [
+      "employment",
+      "alias",
+      "contacts",
+      "alias"
+    ],
+    [
+      "disputes",
+      "claim",
+      "claims",
+      "claim"
+    ],
+    [
+      "tracking",
+      "contact",
+      "contacts",
+      "touch"
+    ],
+    [
+      "employment",
+      "supersedes",
+      "employment",
+      "employment"
+    ]
+  ]
+}
