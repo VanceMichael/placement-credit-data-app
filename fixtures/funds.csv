@@ -1,0 +1,7 @@
+period,scope,amount
+1,shared,3600
+1,H1,2000
+1,H2,2100
+2,shared,3200
+2,H1,1200
+2,H2,1250

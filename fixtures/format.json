@@ -62,6 +62,19 @@
       "opened_day",
       "decision_day",
       "outcome"
+    ],
+    "funds": [
+      "period",
+      "scope",
+      "amount"
+    ],
+    "adjustments": [
+      "adjustment",
+      "payment",
+      "amount",
+      "known_day",
+      "period",
+      "state"
     ]
   },
   "links": [
@@ -100,6 +113,12 @@
       "supersedes",
       "employment",
       "employment"
+    ],
+    [
+      "adjustments",
+      "payment",
+      "settlement",
+      "payment"
     ]
   ]
 }

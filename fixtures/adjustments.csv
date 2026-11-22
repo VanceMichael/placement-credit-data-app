@@ -1,0 +1,3 @@
+adjustment,payment,amount,known_day,period,state
+A1,P1,-240,54,2,proposed
+A2,P4,-100,47,2,confirmed
